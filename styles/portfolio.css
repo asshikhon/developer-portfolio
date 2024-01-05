@@ -14,7 +14,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 color: white;
-padding: 16px 35px ;
+padding: 15px 35px ;
 
 
 }
@@ -23,11 +23,11 @@ nav{
     display: flex;
 align-items: center;
 justify-content: space-between;
+margin: 0 200px;
 }
 .nav-title{
     color: #181818;
 font-size: 45px;
-font-style: normal;
 font-weight: 800;
 
 }
@@ -37,11 +37,25 @@ nav > ul{
 }
 nav li{
     list-style: none;
-margin-right: 51px;
+margin-right: 50px;
 
 }
 nav a{
     text-decoration: none;
     color: #474747;
+
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
 
 }
